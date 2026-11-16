@@ -1,0 +1,54 @@
+{
+  "437": {
+    "annotation": "o",
+    "coordinates_127x113": [
+      4,
+      98
+    ],
+    "coordinates_23x23": [
+      19,
+      23
+    ],
+    "position_is_prime": false,
+    "source_digit": "9",
+    "underlying_symbol": "."
+  },
+  "canary_v2_v3_provenance": "not evaluated; no original bytes/line-level canary corpus supplied",
+  "eligible_digits_529": 227,
+  "eligible_digits_full": 6277,
+  "first_529_histogram_no_overlay": {
+    "#": 43,
+    "+": 184,
+    ".": 246,
+    "x": 56
+  },
+  "first_529_histogram_with_437_o": {
+    "#": 43,
+    "+": 184,
+    ".": 245,
+    "o": 1,
+    "x": 56
+  },
+  "full_histogram": {
+    "#": 732,
+    "+": 5545,
+    ".": 7123,
+    "x": 951
+  },
+  "length_full": 14351,
+  "literal_grid_matches_supplied_rows": true,
+  "prime_positions_529": 99,
+  "prime_positions_full": 1683,
+  "regenerated_grid_sha256": "6e5a7c861d017143e130373fd6620d88253fabfac995caa9901f2300bfdbb7fe",
+  "regenerated_stream_sha256": "ccfaf48c46528d77b6773b82cb531588953ce9e217b427d0d03f3698056b129a",
+  "repetition": {
+    "copied_template_double_keys": 1169,
+    "displacement": 77,
+    "lattice_width": 113,
+    "overlapping_double_keys": 104,
+    "source_double_keys": 732,
+    "template_length": 529
+  },
+  "source_rule": "concatenate decimal primes from 2 upward, truncate to 14351 characters, index from 1",
+  "text_fidelity_observation": "latest legend/histogram use hyphen instead of plus; grid itself uses plus"
+}

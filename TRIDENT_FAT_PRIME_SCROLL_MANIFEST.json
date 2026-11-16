@@ -1,0 +1,100 @@
+{
+  "title": "TRIDENT FAT PRIME SCROLL / local Markdown rendering-copy study",
+  "version": "2026-11-14",
+  "md_file": "TRIDENT_FAT_PRIME_SCROLL_MARKDOWN_2026-11-14.md",
+  "md_bytes": 58170,
+  "md_sha256": "0dca28f2727a8fce5d67da7c28b0ce62e73ddb6e81db614d05f3c97bec202c1d",
+  "raw_file": "TRIDENT_FAT_PRIME_SCROLL_RAW_FOLIOS.txt",
+  "raw_bytes": 47471,
+  "raw_sha256": "2d0adfd7392391a08bc6f255ebfa084e4f0de759a5bb8a21ea081b1f31a87a5c",
+  "source_strands": [
+    {
+      "name": "five_digit_80_prime",
+      "length": 400,
+      "sha256": "357c386ebf815aac31b65137ee3a1b8a61ae24e26e0005434b7312288c82d0a0",
+      "anchor": 437
+    },
+    {
+      "name": "first_529_concatenated_primes",
+      "length": 529,
+      "sha256": "3604c9c1ffed86d5bf92e9b8aed0c0624878e99a6622f2252e81d195b9b3cada",
+      "anchor": 231
+    },
+    {
+      "name": "827_to_1579_concatenated_primes",
+      "length": 399,
+      "sha256": "27fa68db83d0339e0c3abfc493674c25adc3165d6d9f1a387e5ea929dbf30f2a",
+      "anchor": 1109
+    }
+  ],
+  "folios": [
+    {
+      "name": "I",
+      "offset": 0,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "7aaa106933b0722bb5b6c0e66c8b2ed35de79cae2c7e951c229010310a14f962",
+      "digit_count": 5063
+    },
+    {
+      "name": "II",
+      "offset": 1117,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "641bfe03e17bc46810b2ae9407918eabac811d0d08ec858d4e0daad05e1ffb3e",
+      "digit_count": 5063
+    },
+    {
+      "name": "III",
+      "offset": 4723,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "42c6a96f6facc314510e78c4d59970e0d9bab3f34dd35d3e372d0e3f501869a9",
+      "digit_count": 5063
+    },
+    {
+      "name": "IV",
+      "offset": 47,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "027c32f41d70b13b98a0ce333da4456a92f665c542885d831a8b936b88122b68",
+      "digit_count": 5063
+    },
+    {
+      "name": "V",
+      "offset": 1000,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "e36995f053d626e5203ab94d147ccaf4476e7a5993d0695922f96f790d4019c8",
+      "digit_count": 5063
+    },
+    {
+      "name": "VI",
+      "offset": 367,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "be72a85daaa372a26965665e1dbfaf8bad7c1c0a0b48d08c07142d837c548266",
+      "digit_count": 5063
+    },
+    {
+      "name": "VII",
+      "offset": 377,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "9cb264d658e753db025ac4481cf2e09911da1b6bcbc8589a2652185cfc70ea88",
+      "digit_count": 5063
+    },
+    {
+      "name": "VIII",
+      "offset": 7,
+      "rows": 73,
+      "columns": 79,
+      "sha256": "19d3cf77714efa673097f10f10ae30979db57143059a6e7b25bf51e2bc723fc7",
+      "digit_count": 5063
+    }
+  ],
+  "fragments_count": 39,
+  "source_ledger": "trident_prime_scroll_fragment_ledger_20261114.json",
+  "prior_folio_I_matches_TRIDENT_PRIME_SCROLL_NUMERIC_79x73_txt": true,
+  "limits": "Local source and display experiment only; not a claim of actual host/clipboard bytes, undisclosed alteration, or physical effect."
+}

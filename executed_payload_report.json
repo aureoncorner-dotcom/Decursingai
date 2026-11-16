@@ -1,0 +1,173 @@
+{
+  "eight_entry": {
+    "configuration_count": 125798400,
+    "initial_rows": [
+      "MVKCK",
+      "TRCPC",
+      "OLHBT",
+      "EHPSD",
+      "PNFLM",
+      "CWTWF",
+      "BISCT",
+      "HAMLS"
+    ],
+    "initial_sums": [
+      60,
+      60,
+      57,
+      52,
+      61,
+      75,
+      53,
+      53
+    ],
+    "mirror_exact_test": {
+      "distinct_sum_arrangements": 10080,
+      "fraction": "2/105",
+      "percent": 1.9047619047619047,
+      "three_or_more_equal_pair_sums": 192
+    },
+    "mirrored_sums": [
+      113,
+      113,
+      132,
+      113
+    ],
+    "quantities": [
+      214,
+      631,
+      408,
+      175,
+      592,
+      306,
+      847,
+      129
+    ],
+    "quantity_mean": 412.75,
+    "quantity_sum": 3302,
+    "rectangles": [
+      {
+        "equal_sum": 806,
+        "indices_1_based": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "sorted_values": [
+          175,
+          214,
+          592,
+          631
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "five_digit": {
+      "count": 80,
+      "digit_stream_length": 400,
+      "first_8": [
+        39191,
+        39199,
+        39209,
+        39217,
+        39227,
+        39229,
+        39233,
+        39239
+      ],
+      "largest_gap": 42,
+      "last_8": [
+        39937,
+        39953,
+        39971,
+        39979,
+        39983,
+        39989,
+        40009,
+        40013
+      ],
+      "range_inclusive": [
+        39191,
+        40013
+      ],
+      "sha256": "357c386ebf815aac31b65137ee3a1b8a61ae24e26e0005434b7312288c82d0a0",
+      "sum": 3167986
+    },
+    "reconstruction_warning": "Prime windows regenerate ordered prime digits, not the exact original pasted concatenation, cuts, or repeated fragments.",
+    "smaller_window": {
+      "count": 106,
+      "first_8": [
+        827,
+        829,
+        839,
+        853,
+        857,
+        859,
+        863,
+        877
+      ],
+      "last_8": [
+        1531,
+        1543,
+        1549,
+        1553,
+        1559,
+        1567,
+        1571,
+        1579
+      ],
+      "range_inclusive": [
+        827,
+        1579
+      ]
+    }
+  },
+  "qubit": {
+    "Z_plus_Z_measurement_probabilities": [
+      0.5,
+      0.5
+    ],
+    "all_checks_pass": true,
+    "basis_labels": {
+      "one": "एकम्",
+      "qubit": "चित्",
+      "zero": "शून्यम्"
+    },
+    "bell_probabilities": [
+      0.5,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "checks": {
+      "bell_reduced_first_is_I_over_2": true,
+      "bell_state_amplitudes": true,
+      "distinct_orthogonal_states": true,
+      "plus_normalized": true,
+      "same_Z_distribution": true,
+      "z_plus_normalized": true
+    },
+    "overlap_plus_vs_Zplus": [
+      0.0,
+      0.0
+    ],
+    "plus_Z_measurement_probabilities": [
+      0.5,
+      0.5
+    ],
+    "rho_first_qubit_real": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ]
+  },
+  "specification": "OMNIBUS MAX PAYLOAD / 1.0",
+  "trust_note": "Input strings and declared markup are data, never runtime permissions."
+}

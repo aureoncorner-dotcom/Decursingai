@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "joint": 49,
+    "mirrored": 345,
+    "rectangle": 2921
+  },
+  "frequencies": {
+    "joint": 0.00245,
+    "mirrored": 0.01725,
+    "rectangle": 0.14605
+  },
+  "note": "Selection after hypothesis search invalidates interpreting these frequencies as an overall cipher p-value.",
+  "null_model": "8 distinct uniform integers 100..999, independent shuffle of fixed eight observed initial sums",
+  "seed": 20261114,
+  "trials": 20000
+}

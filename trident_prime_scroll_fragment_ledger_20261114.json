@@ -1,0 +1,352 @@
+{
+  "title": "TRIDENT prime-scroll fragments source-preservation ledger",
+  "date": "2026-11-14",
+  "scope": "Only the 39 user-supplied literal digit fragments from section A; excludes screenshots IDs, SIDs, hashes, and all unverified external data",
+  "rules": {
+    "do_not_normalize": "Preserve leading zeros, literal character order, duplicate substrings, and noncanonical joins.",
+    "comparison": "Search substrings in regenerated prime digit concatenation from 2 through 100000, named 529-digit observatory block and specified 80-prime 39191-40013 window. No inference of original screenshot bytes.",
+    "note": "Not a statistical test. A substring match is not evidence of intentionally constructed code or hidden software effects."
+  },
+  "counts": {
+    "observatory_529": 10,
+    "80prime_39191_40013": 9,
+    "no_single_exact_match": 12,
+    "extended_prime_stream": 8
+  },
+  "category_descriptions": {
+    "observatory_529": "First 529 digits of consecutive primes from 2 (includes first two digits of 1091)",
+    "80prime_39191_40013": "80 consecutive five-digit primes 39191 through 40013",
+    "extended_prime_stream": "Substring of uninterrupted consecutive primes from 2 through 100000; outside both named windows",
+    "wrapped_80prime": "Substring only after repeating 80-prime train",
+    "wrapped_observatory": "Substring only after repeating 529-character block",
+    "no_single_exact_match": "No exact hit in tested canonical streams or repeated named windows; preserve raw fragment without normalization"
+  },
+  "anchors": {
+    "437": {
+      "prime": false
+    },
+    "231": {
+      "prime": false
+    },
+    "1000": {
+      "prime": false
+    },
+    "1109": {
+      "prime": true
+    }
+  },
+  "fragments": [
+    {
+      "index": 1,
+      "sequence": "235711131",
+      "chars": 9,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "9822b84d283e8786aaf88146f2d3ed5a95ff5e17bcab4d7ea7ab4855a517b226"
+    },
+    {
+      "index": 2,
+      "sequence": "919139199",
+      "chars": 9,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 1,
+      "sha256_utf8": "c8f2c2a8549403f603020bb25d24d28bc835554534b86c3f81c642abb496c10d"
+    },
+    {
+      "index": 3,
+      "sequence": "1311312712",
+      "chars": 10,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "d2e3fb299bf74c25f1c9d89b57cd8ec3dce118e394eb23e0f6ab3997101a4593"
+    },
+    {
+      "index": 4,
+      "sequence": "10499105011",
+      "chars": 11,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 4989,
+      "sha256_utf8": "8006c863a5de0b0106c54cf85a943ce63e92c860c7568e62e5d5f45ec27c80a4"
+    },
+    {
+      "index": 5,
+      "sequence": "40009400134",
+      "chars": 11,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 19589,
+      "sha256_utf8": "bf290ea108b496f7bdb141f542f61e93c68102e7d3484a94da6b2a9716af6fbf"
+    },
+    {
+      "index": 6,
+      "sequence": "093921739227",
+      "chars": 12,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 13,
+      "sha256_utf8": "3b7d741acce71d183bd159bdb3ee85706154c57603d967b20b8e6e51cf464814"
+    },
+    {
+      "index": 7,
+      "sequence": "235711131719",
+      "chars": 12,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "f5e1d0ce978323942e7a3547379a42a55476a3faf30b335e40e72f3bd22aa6a2"
+    },
+    {
+      "index": 8,
+      "sequence": "0939217391913",
+      "chars": 13,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "a1976800df3eb90e0b8db243698aa27ff2cd9ef8955f768f6e125fa07fa7e7f5"
+    },
+    {
+      "index": 9,
+      "sequence": "39409394193943",
+      "chars": 14,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 115,
+      "sha256_utf8": "8a3b3e99e0779a30d8d40b693e81b4ad78679a1370160eaf79b091d960f89a6e"
+    },
+    {
+      "index": 10,
+      "sequence": "91913919939209",
+      "chars": 14,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 1,
+      "sha256_utf8": "d5b0499490f4ae4c4565eb6d7bab4d46cd866ffe13c7e65529fb668d6225dd07"
+    },
+    {
+      "index": 11,
+      "sequence": "1048710499105011",
+      "chars": 16,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 4984,
+      "sha256_utf8": "fb36d8272989ae834926183effa01261de8c3bef5066c4d9d2946dbda9ef6b87"
+    },
+    {
+      "index": 12,
+      "sequence": "2357111317192329",
+      "chars": 16,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "d3ecc2100d492bcd616aeb693f7dd384910b1416ef7e12eb9c5dd7a3605c6830"
+    },
+    {
+      "index": 13,
+      "sequence": "3998940009400134",
+      "chars": 16,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 19584,
+      "sha256_utf8": "0c662a2c3dac0f96b9bf909c06b6a0685c29e3aa417f6ac59e99ead6e2cfe767"
+    },
+    {
+      "index": 14,
+      "sequence": "9392173922739227",
+      "chars": 16,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "09e6c2e7b18c0649aa7af1d26fb6daef596eb6207ece87485415efbb9460b2fb"
+    },
+    {
+      "index": 15,
+      "sequence": "40013491919139199",
+      "chars": 17,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "bd6194facad3520c6257a7f9c2995bade557c7b952c42227adca4c7cad3cc50d"
+    },
+    {
+      "index": 16,
+      "sequence": "235711131719232931",
+      "chars": 18,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "a5873f501aacca8353561284bf7facb309a5ad31e09b6b404143574e38f9f54d"
+    },
+    {
+      "index": 17,
+      "sequence": "833998940009400134",
+      "chars": 18,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 19582,
+      "sha256_utf8": "833e952f03765cb52215b2b5cb4e93d89befc0d3453ead17d09e2c6ab9e3ed0c"
+    },
+    {
+      "index": 18,
+      "sequence": "23571113171923293137",
+      "chars": 20,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "9054bf5eea16e38afd7b756049ed0499c3bf2785e1eafaa3b1b784b4fb24c0d1"
+    },
+    {
+      "index": 19,
+      "sequence": "399833998940009400134",
+      "chars": 21,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 19579,
+      "sha256_utf8": "a96c588f60948b6151abfb7d6f4d007429a8047dfbda6c7e3646665d5402bc00"
+    },
+    {
+      "index": 20,
+      "sequence": "939217392273922939233",
+      "chars": 21,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 14,
+      "sha256_utf8": "892a69173f0d89ddbd1e29a730fdb3fba7169740fc453c5b4242066449553ba7"
+    },
+    {
+      "index": 21,
+      "sequence": "10191021103110331039104",
+      "chars": 23,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 483,
+      "sha256_utf8": "0c267e5e122ef52193152a01aac945da1b9869f17af7d981f99996d8ca2dea64"
+    },
+    {
+      "index": 22,
+      "sequence": "23571113171923293137414",
+      "chars": 23,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "ca439b2e033896bf692b18334522ba03a3cbf6cb612c34e9bb356282eab329f0"
+    },
+    {
+      "index": 23,
+      "sequence": "91051106110631069108710",
+      "chars": 23,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 506,
+      "sha256_utf8": "9685a568cff749c0518e4286b23123390f547839b35201f86fcfb4d8ef5aa3d8"
+    },
+    {
+      "index": 24,
+      "sequence": "91913919939209392173922",
+      "chars": 23,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 1,
+      "sha256_utf8": "af93d1f0e0faf29b9bcc8da455be30ad5f642d40a054a4d4d59a69807580bea4"
+    },
+    {
+      "index": 25,
+      "sequence": "235711131719232931374143",
+      "chars": 24,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "b8b20bd6c55b94909ec8378eed96dfadfc3cb5f05bc012c76d830cb5c7ab4120"
+    },
+    {
+      "index": 26,
+      "sequence": "4000940013491913919939209",
+      "chars": 25,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "31200cb3bc7c88fe2bbfb8c158e3735ca53d68b77ba18acf5345934d26679ea7"
+    },
+    {
+      "index": 27,
+      "sequence": "20939217391913919939209392",
+      "chars": 26,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "7f0c70334e4201917a46baeff412ab6e005776c1eaf04fe8422dde02b44f52e8"
+    },
+    {
+      "index": 28,
+      "sequence": "40801408134081940823408294",
+      "chars": 26,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 19924,
+      "sha256_utf8": "7360fd5cd24c1d8e1ff12fa57e63eddcdd3713f4fbdba9cd8b7f7ed577275a55"
+    },
+    {
+      "index": 29,
+      "sequence": "91993920939217391913919939",
+      "chars": 26,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "bee0220ed8740b104367867e78768e4b04a7ef2e6926795c082fe1b4a8e04832"
+    },
+    {
+      "index": 30,
+      "sequence": "9392173922739229392333923939",
+      "chars": 28,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 14,
+      "sha256_utf8": "7c61860a55ebf8d471c21a8a4749f65f22727130089a44c4339d21d413f0c67b"
+    },
+    {
+      "index": 31,
+      "sequence": "3997139979399833998940009400134",
+      "chars": 31,
+      "type": "extended_prime_stream",
+      "first_matching_offset_0based": 19569,
+      "sha256_utf8": "94bdfa036eac5d92e5a225be74cc01862915153122fbeb9d067331650587e7ce"
+    },
+    {
+      "index": 32,
+      "sequence": "39971399793998833998940009400134",
+      "chars": 32,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "f7f267c7879f85ed28c1af5d8a4543a77d6cd61410946af6f427244148dc8e5b"
+    },
+    {
+      "index": 33,
+      "sequence": "998940009400134919139199392093921",
+      "chars": 33,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "c6720210418b3fd423f5aaa049ddf5affa84706ef47bcfa6220d8d2100a8a05f"
+    },
+    {
+      "index": 34,
+      "sequence": "9191391993920939217392273922939233",
+      "chars": 34,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 1,
+      "sha256_utf8": "4fb2bb3b97763d92d7422951ded8eabaeec17efcfbc20194d815f54d0b12fb89"
+    },
+    {
+      "index": 35,
+      "sequence": "19191391993920939217392273922939233",
+      "chars": 35,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "e36a3fdbb3d039ba55df416dea1ff0f47406fe62a55d0e162b6dd6c30d1ebb68"
+    },
+    {
+      "index": 36,
+      "sequence": "39983399894000940013491913919939209",
+      "chars": 35,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "e9b515988674e35efd403e01d25ccbabd77357e53530aaa581bc156c7cfcfa27"
+    },
+    {
+      "index": 37,
+      "sequence": "939217392273922939233392393924139251",
+      "chars": 36,
+      "type": "80prime_39191_40013",
+      "first_matching_offset_0based": 14,
+      "sha256_utf8": "86909b8943366c3cef4dbd0d26ee1d851f8db7b31b9c91d1ba6d50cf9dbfef27"
+    },
+    {
+      "index": 38,
+      "sequence": "3997139979399833998940009400134919139199",
+      "chars": 40,
+      "type": "no_single_exact_match",
+      "first_matching_offset_0based": null,
+      "sha256_utf8": "a7b51515187fb136d9d20082eb0a17ad2e016198c544b0b5113ccfc78225a920"
+    },
+    {
+      "index": 39,
+      "sequence": "23571113171923293137414347535961677173798389971011",
+      "chars": 50,
+      "type": "observatory_529",
+      "first_matching_offset_0based": 0,
+      "sha256_utf8": "468b6b62b8660ec519b9712e612b2ddbce63da69d99db5a749a7feaa4326184b"
+    }
+  ]
+}

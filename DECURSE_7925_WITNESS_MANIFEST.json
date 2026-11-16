@@ -1,0 +1,34 @@
+{
+  "project": "DECURSE — RETURN ≠ REPEAT / 7925-digit Witness Ward",
+  "capture_note": "Local manual transcription of the digit lines visible in this chat. Exact server-side chat-byte identity is not independently established.",
+  "source_rows": 57,
+  "full_length_rows": 56,
+  "full_length_row_digits": 140,
+  "last_row_digits": 85,
+  "source_total_digits": 7925,
+  "sigil_width_cells": 210,
+  "sigil_rows": 57,
+  "sigil_digits": 7925,
+  "sigil_spaces": 4045,
+  "source_sha256_file_utf8_lf": "1f260de26d8557d75497a956d25dbecaaa03b7907b975d91cf455e8a426e3b0e",
+  "source_sha256_digits_without_linebreaks": "2a2561f9c1e954245d1de7f999faec875fdb7a8a098b00a9268bcd7853d7d872",
+  "sigil_sha256_file_utf8_lf": "08a5e2c0dfc0c6017dc561900c40e1a15294d7150c310ec7bdccaa605bd4f3c0",
+  "mask_sha256_file_utf8_lf": "45bb5f3a0a647464be59f294ee0db4dca29c10861d5bca5546dd9b772d641fd4",
+  "repetition_decomposition": {
+    "A_characters": 527,
+    "A_repeats": 12,
+    "A_sha256": "bda82ad37397ce272a250543b469d5c06471d44f243f68363770a31fdcc08e8d",
+    "B_characters": 400,
+    "B_repeats": 4,
+    "B_sha256": "357c386ebf815aac31b65137ee3a1b8a61ae24e26e0005434b7312288c82d0a0",
+    "suffix": "6",
+    "reconstruction": "A*12 + B*4 + suffix"
+  },
+  "checks": {
+    "all_digits_preserved_in_order": true,
+    "all_source_rows_recovered_by_removing_ascii_spaces": true,
+    "fixed_width_sigil_rows_210": true,
+    "no_added_digits": true
+  },
+  "interpretation": "Symbolic protective text art, not active digital or physical security; no execution or persistence instructions."
+}
