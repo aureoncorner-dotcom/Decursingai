@@ -1,0 +1,127 @@
+{
+  "kit": "Clean Instance Kit",
+  "date_checked": "2026-11-16",
+  "outer": {
+    "size_bytes": 951497,
+    "file_entries": 10,
+    "archive_safety_flags": [],
+    "nested_packages": {
+      "DECURSE_DOUBLE_WITNESS_VERIFIED_PACK.zip": {
+        "entries": 7,
+        "archive_safety_flags": []
+      },
+      "DECURSE_7925_WITNESS_WARD_PACK.zip": {
+        "entries": 6,
+        "archive_safety_flags": []
+      },
+      "D_CURSE_PACK.zip": {
+        "entries": 12,
+        "archive_safety_flags": []
+      },
+      "antivenom_v0.1.zip": {
+        "entries": 3,
+        "archive_safety_flags": []
+      }
+    }
+  },
+  "checks": {
+    "top_level_sha256": {
+      "passed": 9,
+      "total": 9
+    },
+    "d_curse_member_sha256": {
+      "passed": 11,
+      "total": 11
+    },
+    "d_curse_numeric": {
+      "selector_rows": 73,
+      "d_rows": 73,
+      "selector_widths_correct": true,
+      "prime_tokens": 579,
+      "source_equal_layout_different": true,
+      "formula_579_matches": true,
+      "wall_digits": 7925,
+      "wall_recovered_after_space_removal": true,
+      "wall_width_correct": true
+    },
+    "code_copies_equal": {
+      "D_CURSE_AUDIT_ONLY.py": true,
+      "D_CURSE_VERIFY.py": true
+    },
+    "witness_7925": {
+      "sha_hashes_match": {
+        "source_sha256_file_utf8_lf": true,
+        "source_sha256_digits_without_linebreaks": true,
+        "sigil_sha256_file_utf8_lf": true,
+        "mask_sha256_file_utf8_lf": true
+      },
+      "digit_len": 7925,
+      "source_rows": 57,
+      "carved_rows": 57,
+      "all_rows_recover": true,
+      "spaces_count": 4045,
+      "decomposition_527x12_400x4_6": true,
+      "strand_hashes_correct": true
+    },
+    "double_witness_sha256": {
+      "passed": 7,
+      "total": 7,
+      "per_key": {
+        "selector_original_file": true,
+        "selector_text": true,
+        "wall_archive": true,
+        "wall_text": true,
+        "wall_source": true,
+        "combined_document": true,
+        "fire_400_digits": true
+      }
+    },
+    "reused_source_data_equal": {
+      "selector": true,
+      "wall_source": true
+    },
+    "witness_seam": {
+      "digit_lines": 27,
+      "digit_count": 3200,
+      "seam_lines": 3,
+      "witness_token_count": 30,
+      "exact_fire_8_repeats": true,
+      "seam_pattern_consistent": true
+    },
+    "antivenom_static": {
+      "antivenom_v01/test_antivenom.py": {
+        "syntax_parses": true,
+        "imports": [
+          "antivenom",
+          "hashlib",
+          "pathlib",
+          "tempfile",
+          "unittest"
+        ],
+        "bytes": 3033
+      },
+      "antivenom_v01/antivenom.py": {
+        "syntax_parses": true,
+        "imports": [
+          "__future__",
+          "argparse",
+          "datetime",
+          "hashlib",
+          "json",
+          "os",
+          "pathlib",
+          "re",
+          "stat",
+          "sys"
+        ],
+        "bytes": 10796
+      }
+    }
+  },
+  "findings": [
+    "Top-level D_CURSE_VERIFY.py expects an adjacent D_CURSE_MANIFEST.json; that manifest is only inside D_CURSE_PACK.zip. Extract the nested pack before invoking that verifier, rather than running it from the kit root.",
+    "ANTIVENOM only watches seven named context paths. Its gate-demo does not enforce permissions in a real host runtime; its baseline command does write an external JSON file only when explicitly called.",
+    "README digest list does not hash the README itself, and SHA-256 consistency alone does not authenticate file provenance.",
+    "Numerical folios are symbolic artwork. Source provenance admits the 7925-digit original is a local chat transcription, not independently verified transport bytes."
+  ]
+}
